@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="pink1">#fa8679</color>
+    <color name="pink2">#f7bdb2</color>
+    <color name="lightgreen">#B0D5BB</color>
+    <color name="grey">#DCDCDC</color>
+    <color name="lightgrey">#E4E4E4</color>
+    <color name="temigreen">#22CE99</color>
+    <color name="white">#FFFFFF</color>
+    <color name="temigrey">#FAFAFA</color>
+    <color name="temibrightgreen">#DDE9E1</color>
+    <color name="gaugegrey">#D8DDE4</color>
+    <color name="gaugeblue">#1479FE</color>
+    <color name="a">#88898B</color>
+    <color name="temibackgroundblue">#FFE3ECFA</color>
+    <color name="textcolor">#193B68</color>
+    <color name="btnclicked">#BAC7DA</color>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="16dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/temibackgroundblue">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="1030dp"
+        android:layout_height="340dp"
+        app:cardCornerRadius="35dp"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center">
+                <ImageButton
+                    android:onClick="HomeBtnOnClick"
+                    android:id="@+id/HomeBtn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/backhome"
+                    android:background="@color/white"
+                    android:text="Home" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:paddingLeft="300dp"
+                    android:paddingTop="15dp"
+                    android:text="Send Text Data to Schaeffler IoT Hub"
+                    android:textColor="#193B68"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycleview"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"/>
+            <View
+                android:layout_width="980dp"
+                android:layout_height="2dp"
+                android:layout_centerInParent="true"
+                android:background="@color/gaugeblue"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/txtInput"
+                    android:layout_width="900dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/recycleview"
+                    android:layout_marginLeft="30dp"
+                    android:backgroundTint="@color/white"
+                    android:ems="10"
+                    android:textCursorDrawable='@null' />
+                <Button
+                    android:id="@+id/btnStart"
+                    android:background="@drawable/btn_blue"
+                    android:textColor="@color/gaugeblue"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:onClick="btnStartOnClick"
+                    android:text="send" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

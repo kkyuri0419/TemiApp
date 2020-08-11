@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="260dp"
+    android:layout_height="260dp"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp">
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:padding="15dp"
+            android:id="@+id/textview"
+            android:background="@drawable/location_before"
+            android:textColor="#88919C"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:textSize="31dp"
+            android:scaleType="fitCenter" />
+    </androidx.cardview.widget.CardView>
+
+<!--    android:textColor="#949699"-->
+
+
+    <!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:gravity="center"-->
+<!--        android:paddingStart="5dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:outlineAmbientShadowColor="@color/grey">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="200dp"-->
+<!--            android:padding="15dp"-->
+<!--            android:id="@+id/textview"-->
+<!--            android:background="@drawable/round_rectangle"-->
+<!--            android:textColor="@color/cardview_dark_background"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:gravity="center"-->
+<!--            android:textSize="30dp"-->
+<!--            android:scaleType="fitCenter" />-->
+
+<!--    </LinearLayout>-->
+
+</RelativeLayout>
